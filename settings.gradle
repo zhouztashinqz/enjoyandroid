@@ -1,0 +1,5 @@
+include  ':image-component', ':app'
+include ':network-component'
+include ':data-component'
+include ':ui-component'
+include ':system-component'

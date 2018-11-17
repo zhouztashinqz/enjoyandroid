@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Activity 等UI配置，通过资源覆写 -->
+
+<resources>
+
+    <dimen name="header_height">@dimen/px80</dimen>
+    <color name="header_bg_color">#3d3413</color>
+
+    <style name="header_image_style">
+        <item name="android:textSize">@dimen/pt18</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+</resources>

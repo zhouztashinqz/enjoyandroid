@@ -1,0 +1,26 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion buildconfig.compileSdkVersion
+    defaultConfig {
+        minSdkVersion buildconfig.minSdkVersion
+        targetSdkVersion buildconfig.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.github.zhouztashinqz:ui-component-list:1.0'
+    compile 'com.github.zhouztashinqz:ui-component-refresh:1.0'
+    compile 'com.github.zhouztashinqz:ui-component-dialog:1.0'
+
+}
