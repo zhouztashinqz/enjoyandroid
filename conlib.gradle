@@ -6,6 +6,7 @@ ext {
     eventbus_version = "3.1.1"
     sqlcipher_version = "3.5.2"
     glide_version = "4.8.0"
+    immersion_bar_version = "2.3.3-beta04"
     googlelib = [
             gridlayout       : "com.android.support:gridlayout-v7:$support_verison",
             annotations      : "com.android.support:support-annotations:$support_verison",
@@ -27,6 +28,7 @@ ext {
             sqlcipher              : "net.zetetic:android-database-sqlcipher:$sqlcipher_version",
             glide                  : "com.github.bumptech.glide:glide:$glide_version",
             glide_compiler         : "com.github.bumptech.glide:compiler:$glide_version",
-            eventbus               : "org.greenrobot:eventbus:$eventbus_version"
+            eventbus               : "org.greenrobot:eventbus:$eventbus_version",
+            immersion_bar          : "com.gyf.immersionbar:immersionbar:$immersion_bar_version"
     ]
 }

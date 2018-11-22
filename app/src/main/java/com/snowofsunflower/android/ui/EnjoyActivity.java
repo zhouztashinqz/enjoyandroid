@@ -3,6 +3,7 @@ package com.snowofsunflower.android.ui;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
+import com.gyf.barlibrary.ImmersionBar;
 import com.snowofsunflower.android.ui.activity.BarActivity;
 import com.snowofsunflower.android.ui.header.HeaderHelper;
 
@@ -23,7 +24,11 @@ public abstract class EnjoyActivity extends BarActivity {
             EventBus.getDefault().register(this);
         }
         mHeader = new HeaderHelper(getBarView());
+        ImmersionBar.with(this)
+                .statusBarView(mHeader.getImmersionView())
+                .init();
     }
+
 
     public HeaderHelper header() {
         return mHeader;
@@ -44,7 +49,7 @@ public abstract class EnjoyActivity extends BarActivity {
     }
 
     public boolean useEventBus() {
-        return true;
+        return false;
     }
 
 }

@@ -22,5 +22,7 @@ dependencies {
     compile 'com.github.zhouztashinqz:ui-component-list:1.0'
     compile 'com.github.zhouztashinqz:ui-component-refresh:1.0'
     compile 'com.github.zhouztashinqz:ui-component-dialog:1.0'
+    compile sourcelib.immersion_bar
+
 
 }

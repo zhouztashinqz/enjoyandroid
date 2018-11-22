@@ -23,12 +23,19 @@ public class HeaderHelper {
         mView = rootHeaderView;
         LinearLayout llLeft = mView.findViewById(R.id.ll_left);
         LinearLayout llRight = mView.findViewById(R.id.ll_right);
-        llLeft.addView(headerView.getLeftView());
-        llRight.addView(headerView.getRightView());
+        if (llLeft != null) {
+            llLeft.addView(headerView.getLeftView());
+            llRight.addView(headerView.getRightView());
+        }
+
     }
 
     public static int getLayoutId() {
         return R.layout.component_header_bar;
+    }
+
+    public View getImmersionView() {
+        return mView.findViewById(R.id.immersion_status_view);
     }
 
     public void setTitle(String str) {

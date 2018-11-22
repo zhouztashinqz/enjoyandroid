@@ -6,6 +6,11 @@
     android:background="@color/header_bg_color"
     android:orientation="vertical">
 
+    <View
+        android:id="@+id/immersion_status_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
 
     <RelativeLayout
         android:layout_width="match_parent"

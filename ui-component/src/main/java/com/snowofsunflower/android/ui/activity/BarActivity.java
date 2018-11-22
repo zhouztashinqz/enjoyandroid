@@ -22,8 +22,9 @@ public abstract class BarActivity extends BaseActivity {
 
     private void setBarAndContentView() {
         FrameLayout flBar = findViewById(R.id.fl_bar);
-        FrameLayout flContent = findViewById(R.id.fl_bar);
-        LayoutInflater.from(self).inflate(getBarLayoutId(), flBar);
+        FrameLayout flContent = findViewById(R.id.fl_content);
+        View v = LayoutInflater.from(self).inflate(getBarLayoutId(), flBar);
+
         if (getContentLayoutId() != 0) {
             LayoutInflater.from(self).inflate(getContentLayoutId(), flContent);
             initViewAndEvent();

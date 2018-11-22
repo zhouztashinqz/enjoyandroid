@@ -3,7 +3,7 @@
 <resources>
 
     <dimen name="header_height">44dp</dimen>
-    <color name="header_bg_color">#3d3413</color>
+    <color name="header_bg_color">#337af5</color>
 
     <style name="header_image_style">
         <item name="android:textSize">20sp</item>
