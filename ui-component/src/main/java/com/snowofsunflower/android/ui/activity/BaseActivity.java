@@ -22,10 +22,10 @@ public abstract class BaseActivity extends AppCompatActivity implements UI {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         self = this;
-        setLayout(getContentLayoutId());
         if (isTint()) {
             initTint();
         }
+        setLayout(getContentLayoutId());
     }
 
     private void initTint() {

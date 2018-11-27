@@ -1,35 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="space1px">1px</dimen>
-    <dimen name="space1">1dip</dimen>
-    <dimen name="space2">2dip</dimen>
-    <dimen name="space3">3dip</dimen>
-    <dimen name="space5">5dip</dimen>
-    <dimen name="space10">10dip</dimen>
-    <dimen name="space12">12dip</dimen>
-    <dimen name="space15">15dip</dimen>
-    <dimen name="space20">20dip</dimen>
-    <dimen name="space30">30dip</dimen>
-    <dimen name="space35">35dip</dimen>
-    <dimen name="space40">40dip</dimen>
-    <dimen name="space50">50dip</dimen>
-    <dimen name="space60">60dip</dimen>
-    <dimen name="space120">120dp</dimen>
-    <dimen name="space150">150dp</dimen>
-    <dimen name="space200">200dp</dimen>
-    <dimen name="space250">250dp</dimen>
-    <dimen name="space270">270dp</dimen>
-    <dimen name="space300">300dp</dimen>
-
-    <dimen name="font20">20sp</dimen>
-    <dimen name="font18">18sp</dimen>
-    <dimen name="font16">16sp</dimen>
-    <dimen name="font14">14sp</dimen>
-    <dimen name="font12">12sp</dimen>
-    <dimen name="dp15">15dp</dimen>
-
-    <!--根据UI规范 将Px转换成dp值，之后跟设计图标注相关的，都需要引用下面  按照 dp = px / (ppi / 160) 计算，其中 ppi根据 UI切图 = 326-->
-    <dimen name="pxline">1px</dimen>
     <dimen name="px0">0dp</dimen>
     <dimen name="px3">1dp</dimen>
     <dimen name="px4">1dp</dimen>
